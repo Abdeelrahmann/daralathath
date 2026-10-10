@@ -1,0 +1,21 @@
+دار الأثاث لغرف النوم — SEO setup
+
+الدومين الأساسي: https://darelathath.com/
+
+الموجود في الموقع:
+- robots.txt و sitemap.xml (19 صفحة غرفة + الرئيسية، مع lastmod)
+- صفحة ثابتة لكل غرفة room_XX.html بعنوان ووصف وcanonical وOG وصورة OG خاصة بها
+  (معاينة الرابط على واتساب تظهر بصورة واسم الغرفة)
+- Schema: FurnitureStore + WebSite + ItemList للرئيسية، وProduct + BreadcrumbList لكل غرفة
+- alt نصي مميز لكل صورة، وأبعاد width/height للصور لتقليل اهتزاز الصفحة
+- كروت الغرف داخل HTML مباشرة (Google يرى الروابط بدون JavaScript)
+
+بعد نشر الموقع:
+1) أضف https://darelathath.com/ إلى Google Search Console كـDomain property.
+2) تحقق من الملكية باستخدام DNS.
+3) من Sitemaps أرسل: https://darelathath.com/sitemap.xml
+4) URL Inspection للصفحة الرئيسية ثم Request Indexing.
+5) أنشئ ملف نشاط في Google Business Profile وأضف العنوان (يرفع الظهور المحلي كثيراً)،
+   ثم أضف العنوان والحسابات الاجتماعية إلى الموقع وإلى الـSchema.
+
+ملاحظة: SEO لا يضمن الظهور في أول نتيجة؛ Google يقرر الفهرسة والترتيب بناءً على عدة عوامل.
